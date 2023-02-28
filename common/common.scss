@@ -89,10 +89,7 @@ a.widget-link.search-link {
             padding-left: 0;
             padding-right: 0;
             margin: 0;
-            border-bottom-left-radius: 0;
-            border-top-left-radius: 0;
-            border-bottom-right-radius: 2em;
-            border-top-right-radius: 2em;
+            border-radius: 2em !important;
             color: var(--header_primary);
             &:focus {
               outline: none;
