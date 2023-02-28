@@ -8,17 +8,6 @@
   .d-icon {
     color: var(--secondary) !important;
   }
-
-  button,
-  .btn-flat,
-  .icon {
-    &:hover,
-    &:active,
-    &:focus {
-      color: var(--header_primary-high) !important;
-      background-color: transparent !important;
-    }
-  }
 }
 
 a.widget-link.search-link {
