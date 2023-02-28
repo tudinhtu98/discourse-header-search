@@ -33,7 +33,7 @@ export default createWidgetFrom(searchMenu, "floating-search-input", {
       h(
         "div.search-banner",
         h("div.search-banner-inner.wrap", [
-          h("div.search-menu", [
+          h("div", { className: showResults ? "search-menu active" : "search-menu" }, [
             h("div.search-input", [
               this.attach("button", {
                 className: "btn btn-primary search-button",
