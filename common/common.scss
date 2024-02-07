@@ -100,6 +100,7 @@ a.widget-link.search-link {
           right: 1.65em;
         }
         .search-input {
+          background-color: transparent !important;
           box-sizing: border-box;
           height: 60%;
           width: 100%;
@@ -152,4 +153,8 @@ a.widget-link.search-link {
       }
     }
   }
+}
+
+.search-result-user .item {
+  padding: 0.25em 0.5em !important;
 }
